@@ -3,7 +3,7 @@ import React from 'react';
 export interface DashboardCardProps {
   label: React.ReactNode;
   children: React.ReactNode;
-}
+};
 
 export default function DashboardCard({ label, children }: DashboardCardProps) {
   return (
@@ -12,4 +12,4 @@ export default function DashboardCard({ label, children }: DashboardCardProps) {
       <div>{children}</div>
     </div>
   );
-}
+};

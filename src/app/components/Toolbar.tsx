@@ -3,7 +3,7 @@ import React from "react";
 export interface ToolbarProps {
   children: React.ReactNode;
   action?: React.ReactNode;
-}
+};
 
 export default function Toolbar({ children, action }: ToolbarProps) {
   return (
@@ -12,4 +12,4 @@ export default function Toolbar({ children, action }: ToolbarProps) {
       {action}
     </div>
   );
-}
+};

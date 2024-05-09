@@ -9,7 +9,7 @@ export default function MagicButton(props: ButtonProps) {
   useEffect(() => {
     if (count > 2) {
       throw new Error("Unexpected error");
-    }
+    };
   }, [count]);
 
   return (
@@ -17,4 +17,4 @@ export default function MagicButton(props: ButtonProps) {
       Magic button
     </Button>
   );
-}
+};

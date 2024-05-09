@@ -2,14 +2,10 @@
 
 import React from "react";
 import { useRouter } from "next/navigation";
-import CompanyForm from "@/app/components/CompanyForm";
-import Modal from "@/app/components/Modal";
+import CompanyFormModal from "@/app/components/CompanyFormModal";
 
 export default function Page() {
   const router = useRouter();
-  return (
-    <Modal show={true} onClose={() => router.back()}>
-      <CompanyForm onSubmit={console.log} />
-    </Modal>
-  );
-}
+
+  return <CompanyFormModal show={true} onClose={() => router.back()} />;
+};

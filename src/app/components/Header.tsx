@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export interface HeaderProps {
   children: React.ReactNode;
-}
+};
 
 export default function Header({ children }: HeaderProps) {
   return (
@@ -21,4 +21,4 @@ export default function Header({ children }: HeaderProps) {
       </div>
     </header>
   );
-}
+};

@@ -9,7 +9,7 @@ export interface SidebarItemProps {
   src: string;
   alt: string;
   children: React.ReactNode;
-}
+};
 
 export default function SidebarItem({
   current,
@@ -29,4 +29,4 @@ export default function SidebarItem({
       </Link>
     </li>
   );
-}
+};

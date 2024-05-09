@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 export interface SummaryTableProps {
   headers: React.ReactNode;
   children?: React.ReactNode;
-}
+};
 
 export default function SummaryTable({ headers, children }: SummaryTableProps) {
   return (
@@ -16,4 +16,4 @@ export default function SummaryTable({ headers, children }: SummaryTableProps) {
       </tbody>
     </table>
   );
-}
+};

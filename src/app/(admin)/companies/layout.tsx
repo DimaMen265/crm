@@ -5,7 +5,7 @@ export interface LayoutProps {
   header: React.ReactNode;
   toolbar: React.ReactNode;
   modal: React.ReactNode;
-}
+};
 
 export default function Layout({
   children,
@@ -23,4 +23,4 @@ export default function Layout({
       </main>
     </>
   );
-}
+};

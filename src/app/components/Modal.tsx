@@ -7,7 +7,7 @@ export interface ModalProps {
   children?: React.ReactNode;
   show: boolean;
   onClose: () => void;
-}
+};
 
 export default function Modal({ show, children, onClose }: ModalProps) {
   return (
@@ -34,4 +34,4 @@ export default function Modal({ show, children, onClose }: ModalProps) {
       </Dialog>
     </Transition.Root>
   );
-}
+};
